@@ -1,0 +1,27 @@
+{
+  "name": "just-pluralize",
+  "version": "0.0.1",
+  "description": "A simple singularized tool for all your pluralization problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikhilFairfest/just-pluralize.git"
+  },
+  "keywords": [
+    "just-pluralize",
+    "react-pluralize",
+    "pluralize",
+    "pluralize",
+    "function",
+    "convert word from singularto plural"
+  ],
+  "author": "NikhilFairfest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikhilFairfest/just-pluralize/issues"
+  },
+  "homepage": "https://github.com/NikhilFairfest/just-pluralize#readme"
+}

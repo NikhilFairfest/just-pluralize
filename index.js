@@ -1,4 +1,4 @@
-pluralize = (word, count = 0, pluralWord) => {
+module.exports.pluralize = (word, count = 0, pluralWord) => {
   if (!!word) {
     const pluralizedWord = count < 1 ? word : `${pluralWord || word}s`;
     return pluralizedWord;
