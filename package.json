@@ -1,6 +1,6 @@
 {
   "name": "just-pluralize",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple singularized tool for all your pluralization problems.",
   "main": "index.js",
   "scripts": {
