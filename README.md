@@ -1,18 +1,35 @@
 # just-pluralize
+
 A simple singularized tool for all your pluralization problems.
 
-All you have to do is install the package and you are ready to get going.
-Just import the 'pluralize' method.
+All you have to do is install the package, import the 'pluralize' method and you are ready to get going.
 
-It takes 3 arguements.
-1. singular word - the word you want to be pluralized
-2. count - just pass the count for the word(nothing fancy here)
-3. plural word - incase the plural word is different, then you can pass that to get the desired output.
+### Install
 
-Examples:
+```
+$ npm i just-pluralize
+```
 
-1. word - 'day'
-   method - pluralize('day', 5, null);
+### Import
 
-2. word - 'child'
-   method - pluralize('child', 2, 'children');
+```
+import { pluralize } from 'just-pluralize';
+```
+
+### Usage
+
+```
+pluralize('son', 1) // -> 'son' 👶🏻
+
+pluralize('dog', 3) // -> 'dogs' 🐕 🐕 🐕
+
+pluralize('candy', 6, 'candies') // -> 'candies' 🍬 🍬 🍬 🍬 🍬 🍬
+```
+
+### Props
+
+| Name                    | Type   | Description                                                                                 |
+| ----------------------- | ------ | ------------------------------------------------------------------------------------------- |
+| singular word(required) | string | This the word that you want to pluralize                                                    |
+| count(optional)         | number | The count on which the word would be pluralized                                             |
+| plural word(optional)   | string | This word must be passed in case the plural word is different from the passed singular word |
